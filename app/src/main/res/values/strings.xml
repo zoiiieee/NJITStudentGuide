@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">NJIT Student Guide</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="contacts">&#xe7fb;</string>
+    <string name="calendar">&#xe24f;</string>
+    <string name="campusMap">&#xe55b;</string>
+    <string name="classes">&#xe616;</string>
+    <string name="whats">&#xe8fd;</string>
+    <string name="logout_icon">&#xe7fd;</string>
+    <string name="login_icon">&#xe7ff;</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_Cancel">CANCEL</string>
+    <string name="name">Fullname</string>
+    <string name="degree">&#x00B0;</string>
+    <string name="check">&#xE5CA;</string>
+    <string name="notify">&#xE88E;</string>
+
+       <string name="title_activity_campus_map">Map</string>
+    <string name="semester_prompt">Choose a semester</string>
+    <string name="title_activity_scan">SacanActivity</string>
+
+    <string-array name="semester_arrays">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </string-array>
+
+
+
+</resources>

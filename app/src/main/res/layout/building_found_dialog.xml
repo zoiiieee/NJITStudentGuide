@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:id="@+id/dialog_layout_root"
+    android:background="@color/bg_register"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_result"
+            android:layout_gravity="center_horizontal"
+            android:padding="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:id="@+id/text_result"
+            android:padding="10sp"
+            android:text="Centeral King Building"
+            />
+
+
+    </LinearLayout>

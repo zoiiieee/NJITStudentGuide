@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20sp"
+    android:layout_marginBottom="20sp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/calendar_cell"
+        android:paddingTop="10sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_code"
+                android:layout_weight="4"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="CS620"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="5sp"
+                android:id="@+id/delete_course"
+                android:background="@drawable/delete"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:id="@+id/course_name"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="DATA STRUCTURE AND ALGORITHM "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+
+    <com.team8.cs673.njitstudentguide.Utilities.ExpandableHeightListView
+        android:id="@+id/course_lv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:scrollbars="none"
+        android:layout_marginBottom="10sp"
+        >
+    </com.team8.cs673.njitstudentguide.Utilities.ExpandableHeightListView>
+    </LinearLayout>
+</LinearLayout>

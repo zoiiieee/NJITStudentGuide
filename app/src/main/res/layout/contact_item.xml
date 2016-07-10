@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_name"
+        android:paddingTop="5sp"
+        android:paddingLeft="5sp"
+        android:text="waleed Hassan Alahdal"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_number"
+        android:paddingBottom="5sp"
+        android:paddingLeft="5sp"
+        android:text="(203) 903-7849"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+</LinearLayout>
